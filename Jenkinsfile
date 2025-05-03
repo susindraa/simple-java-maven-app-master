@@ -1,5 +1,9 @@
 pipeline {
     agent any
+
+    tools{
+        maven 'Maven_3.9.6' //Must match the name you set in the jenkins
+    }
     stages {
         stage('Build') { 
             steps {
