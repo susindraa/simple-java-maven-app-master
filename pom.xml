@@ -26,7 +26,7 @@
           <artifactId>maven-compiler-plugin</artifactId>
           <version>3.14.0</version>
           <configuration>
-            <soruce>21</source>
+            <source>21</source>
             <target>21</target>
           </configuration>
         </plugin>
